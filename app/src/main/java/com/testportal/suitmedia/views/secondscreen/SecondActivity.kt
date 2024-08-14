@@ -49,6 +49,10 @@ class SecondActivity : AppCompatActivity() {
             intent.putExtra(EXTRA_NAME, username)
             startActivity(intent)
         }
+
+        binding.secondToolbar.setNavigationOnClickListener {
+            finish()
+        }
     }
 
     companion object {

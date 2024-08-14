@@ -41,6 +41,10 @@ class ThirdActivity : AppCompatActivity() {
         binding.swipeRefresh.setOnRefreshListener {
             fetchUserList()
         }
+
+        binding.thirdToolbar.setNavigationOnClickListener {
+            finish()
+        }
     }
 
     private fun fetchUserList() {
