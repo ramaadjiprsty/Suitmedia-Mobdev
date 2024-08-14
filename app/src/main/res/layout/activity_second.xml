@@ -23,8 +23,7 @@
             style="@style/Toolbar.CustomFont"
             app:title="Second Screen"
             app:navigationIcon="@drawable/baseline_arrow_back_ios_24"
-            android:paddingStart="8dp">
-        </com.google.android.material.appbar.MaterialToolbar>
+            android:paddingStart="8dp"/>
     </com.google.android.material.appbar.AppBarLayout>
 
     <TextView
@@ -47,6 +46,7 @@
         app:layout_constraintTop_toBottomOf="@id/tv_welcome"/>
 
     <TextView
+        android:id="@+id/selected_user"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         tools:text="Selected User Name"
