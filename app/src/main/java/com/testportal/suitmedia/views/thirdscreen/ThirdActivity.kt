@@ -91,6 +91,5 @@ class ThirdActivity : AppCompatActivity() {
     companion object {
         const val CURRENT_PAGE = 1
         const val PAGE_SIZE = 5
-        const val EXTRA_NAME = "extra_name"
     }
 }

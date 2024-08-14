@@ -52,16 +52,6 @@ class SecondActivity : AppCompatActivity() {
         }
     }
 
-    override fun onSaveInstanceState(outState: Bundle) {
-        super.onSaveInstanceState(outState)
-        outState.putString(EXTRA_NAME, username)
-    }
-
-    override fun onRestoreInstanceState(savedInstanceState: Bundle) {
-        super.onRestoreInstanceState(savedInstanceState)
-        username = savedInstanceState.getString(EXTRA_NAME)
-    }
-
     companion object {
         const val EXTRA_NAME = "extra_name"
         const val EXTRA_USER = "extra_user"
