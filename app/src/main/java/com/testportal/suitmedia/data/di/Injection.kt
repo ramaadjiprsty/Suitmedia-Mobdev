@@ -1,6 +1,5 @@
 package com.testportal.suitmedia.data.di
 
-import android.content.Context
 import com.testportal.suitmedia.data.remote.retrofit.ApiConfig
 import com.testportal.suitmedia.data.repository.UserRepository
 

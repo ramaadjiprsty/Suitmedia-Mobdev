@@ -1,6 +1,5 @@
 package com.testportal.suitmedia.views.thirdscreen
 
-import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
@@ -12,14 +11,12 @@ import androidx.core.view.WindowInsetsCompat
 import androidx.paging.PagingData
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.swiperefreshlayout.widget.SwipeRefreshLayout
 import com.testportal.suitmedia.R
 import com.testportal.suitmedia.data.adapter.UserAdapter
 import com.testportal.suitmedia.data.remote.Result
 import com.testportal.suitmedia.data.remote.response.DataItem
 import com.testportal.suitmedia.databinding.ActivityThirdBinding
 import com.testportal.suitmedia.utils.ViewModelFactory
-import com.testportal.suitmedia.views.secondscreen.SecondActivity
 
 class ThirdActivity : AppCompatActivity() {
 
